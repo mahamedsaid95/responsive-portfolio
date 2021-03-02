@@ -1,0 +1,99 @@
+body {
+    font-family: 'Caveat', cursive 'Roboto', sans-serif;
+    background-color: rgb(130, 192, 255);
+    font-size: 20px;
+    line-height: 34px;
+    background-size: cover; 
+}
+
+#row-card {
+    background: ivory;
+    text-align: center;
+    height: 600px
+}
+#about-me-picture {
+    height: auto; 
+    max-width: 100%;
+    float: left;
+    margin-right: 50px;
+    font-size: 8px;
+}
+
+  #about-me-picture3 {
+    height: 350px; 
+    width: 500px;
+    float: left;
+    margin-right: 75px;
+    font-size: 8px;
+}
+
+#masterhead {
+    position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: slategrey;
+  background-color: slategrey;
+  border-bottom: rgb(0, 0, 0) 2px;
+}
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+
+  #mybio {
+  text-align: center;
+  width: 2000px;
+  height: 200px;
+    
+  }
+
+#please-feel {
+    font-size: 28px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+#main-container {
+    padding-top: 150px;
+    min-height: calc(100vh - 70px);
+  }
+
+  #homies {
+      width: 400px;
+      height: 400px;
+  }
+
+  .work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  }
+  
+  @media only screen and (max-width:980px) {
+    body {
+        background-color: fuchsia;
+        font-family: Arial, Helvetica, sans-serif
+    }
+   }
+   @media only screen and (max-width:768px ){
+       body{
+           background-color: greenyellow;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+  
+   }
+  
+   @media only screen and (max-width:640px ){
+       body{
+           background-color: red;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+       }
+  
+   }
+  
